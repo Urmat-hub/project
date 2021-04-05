@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+  #menu .journal {
+    padding-left: 0;
+  }
+
+  #card .nav {
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 259px;
+  }
+  #card .all-cards .cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  #card .all-cards .cards_shirt {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  #final_stock .final-of {
+    flex-wrap: wrap;
+  }
+  #final_stock .final-of .img-shop {
+    padding-top: 40px;
+  }
+
+  #mission .mission {
+    flex-wrap: wrap;
+    padding-left: 60px;
+  }
+
+  #gather .final-of {
+    flex-wrap: wrap;
+  }
+  #gather .final-of .up-to {
+    margin-bottom: 30px;
+  }
+
+  #design .studio {
+    background-size: unset;
+  }
+}
+@media (max-width: 992px) {
+  .stock {
+    display: none;
+  }
+
+  #menu {
+    background-color: black;
+  }
+  #menu .decstop {
+    display: none;
+  }
+  #menu .mobile-menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 40px 20px;
+  }
+  #menu .mobile-menu #toggle-menu {
+    justify-content: space-around;
+    border: 0;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    width: 25px;
+  }
+  #menu .mobile-menu #toggle-menu span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+  #menu .mobile-menu .mobile-menu.open-menu span:first-child {
+    display: none;
+  }
+
+  #card .all-cards .cards {
+    text-align: center;
+    justify-content: space-between;
+  }
+  #card .all-cards .cards_shirt {
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  #design .studio {
+    background-size: unset;
+  }
+
+  #final_stock .img-shop img {
+    width: 492px;
+  }
+
+  #mission .mission {
+    justify-content: center;
+  }
+  #mission .shop-object {
+    margin: 72px 150px;
+  }
+
+  #gather .final-of .img-shop img {
+    width: 492px;
+  }
+
+  .permission img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social {
+    flex-wrap: wrap;
+    height: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .permission img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .costumer {
+    padding: 40px 50px;
+  }
+
+  #final_stock .final-of .up-to .shop-the-sale {
+    padding-top: 50px;
+  }
+  #final_stock .final-of .img-shop img {
+    margin: 20px 14px;
+  }
+
+  #gather .final-of .img-shop img {
+    width: 366px;
+  }
+
+  .costumer {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 480px) {
+  .costumer {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
